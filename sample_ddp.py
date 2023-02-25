@@ -150,7 +150,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, choices=list(DiT_models.keys()), default="DiT-XL/2")
     parser.add_argument("--vae",  type=str, choices=["ema", "mse"], default="ema")
     parser.add_argument("--sample-dir", type=str, default="samples")
-    parser.add_argument("--per-proc-batch-size", type=int, default=32)
+    parser.add_argument("--per-proc-batch-size", type=int, default=16)
     parser.add_argument("--num-fid-samples", type=int, default=50_000)
     parser.add_argument("--image-size", type=int, choices=[256, 512], default=256)
     parser.add_argument("--num-classes", type=int, default=1000)

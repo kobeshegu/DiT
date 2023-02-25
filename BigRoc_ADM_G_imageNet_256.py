@@ -152,7 +152,7 @@ gt_labels = x['arr_1']
 
 
 # BIGRoC args
-epsilon, steps = 1, 7
+epsilon, steps = 3, 7
 step_size = (epsilon * 1.5) / steps
 
 from tqdm.notebook import tqdm
