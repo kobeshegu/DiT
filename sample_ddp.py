@@ -24,7 +24,6 @@ import numpy as np
 import math
 import argparse
 
-
 def create_npz_from_sample_folder(sample_dir, num=50_000):
     """
     Builds a single .npz file from a folder of .png samples.
